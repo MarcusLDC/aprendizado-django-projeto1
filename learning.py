@@ -1,7 +1,8 @@
-"""
-# Lambda, map and zip
 
 import math 
+from functools import reduce
+
+# Lambda, map and zip
 
 radiusList = [2, 5, 6, 12]
 
@@ -43,13 +44,8 @@ print(f'List of active users > {[user["user"] for user in active_users]}')
 
 # Reduce
 
-from functools import reduce
-
 numbers = [1, 2, 3, 4, 5, 6]
 
 sum = reduce(lambda a, b: a + b, numbers)
 
 print(sum)
-
-"""
-
