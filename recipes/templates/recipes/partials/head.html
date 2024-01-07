@@ -81,13 +81,12 @@
 
         .container {
             max-width: 144rem;
-            margin: 0 auto;
+            margin: 2rem auto;
         }
 
         .main-header-container {
             background: var(--color-primary-dark);
             padding: var(--spacing-gutter-medium);
-            margin-bottom: var(--spacing-gutter-medium);
         }
 
         .main-logo {
@@ -143,6 +142,19 @@
 
         .search-form:focus-within .search-button{
             color: rgb(70, 120, 255);
+        }
+
+        .main-content {
+            background: blue;
+        }
+
+        .main-content-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
+        }
+
+        .temp{
+            background-color: red;
         }
 
     </style>
